@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	color:black;
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+	overflow: hidden;
+}
+ul li{
+	float:left;
+}
+header{
+	background-color: black;
+}
+header h1{
+	color:white;
+}
+nav{
+	background-color: gray;
+}
+nav a{
+	display: block;
+	padding: 20px;
+	color: white;
+}
+section{
+	height: 720px;
+}
+footer{
+	background-color: black;
+	height: 100px;
+}
+footer p{
+	text-align: center;
+	color: white;
+	line-height: 100px;
+}
